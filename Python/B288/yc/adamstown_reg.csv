@@ -1,0 +1,48 @@
+Register,Addr
+SoftwareReset,0x2000
+Interrupt Raw 1,0x2001
+Interrupt Raw 2,0x2002
+Interrupt State 1,0x2004
+Interrupt State 2,0x2005
+Interrupt Flag 1,0x2007
+Interrupt Flag 2,0x2008
+Interrupt Enable 1,0x200A
+Interrupt Enable 2,0x200B
+Interrupt Flag Clear 1,0x200D
+Interrupt Flag Clear 2,0x200E
+IRQ Control,0x2010
+I2C Slave Interface Configuration,0x2011
+I2C Master Target Device Address,0x2012
+I2C Master Target Register Address MSB,0x2013
+I2C Master Target Register Address LSB,0x2014
+I2C Master Target Write Data,0x2015
+I2C Master Target Read Data,0x2016
+I2C Master Read Execute,0x2017
+I2C Master Write Execute,0x2018
+I2C Master Address Width,0x2019
+I2C Master Bank 0 Clock Divider,0x201A
+I2C Master Bank 1 Clock Divider,0x201B
+I2C Master Enable,0x201C
+PDM Receiver Configuration,0x201E
+PDM Receiver Enable,0x201F
+Amplifier Playback Path Configuration 1,0x2022
+Amplifier Playback Path Configuration 2,0x2023
+Amplifier ZCD Timeout MSB,0x2024
+Amplifier ZCD Timeout LSB,0x2025
+Amplifier ZCD Readback MSB,0x2026
+Amplifier ZCD Readback LSB,0x2027
+Amplifier Gain Read Back,0x2028
+Amplifier Gain Control,0x2029
+Amplifier Gain Update,0x202A
+Amplifier Mute,0x202B
+Amplifier Enable,0x202C
+EN Input Control,0x2079
+Auto Restart Enables,0x207A
+Data Monitor Count,0x207B
+Data Monitor Enable,0x207C
+Clock Monitor Count,0x207D
+Clock Monitor Enable,0x207E
+Device Global Enable,0x207F
+Device ID MSB,0x21FD
+Device ID LSB,0x21FE
+Revision ID,0x21FF

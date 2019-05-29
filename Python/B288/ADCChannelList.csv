@@ -1,0 +1,134 @@
+Dec.,Hex,Signal Name,Gain (1/LSB),Offset,Full Scale,Unit,Acquisition Time (us),Comments
+0,0,VSSA via TIELO,0.3663 m,0,1.5,V,46,
+1,1,VCHG,5.495 m,0,22.5,V,46,
+2,2,VMID,1.221 m,0,5,V,46,
+3,3,VDD_MAIN,1.221 m,0,5,V,46,
+4,4,VMAX,1.221 m,0,5,V,46,
+5,5,VBAT,1.221 m,0,5,V,46,Differential /wrt VBAT_SNSP
+6,6,VCHG_HEADROOM,1.221 m,0,5,V,46,Differential /wrt VBAT
+10,0A,VBUCK0,0.3663 m,0,1.5,V,46,
+11,0B,VBUCK1,0.3663 m,0,1.5,V,46,
+12,0C,VBUCK2,1.221 m,0,5,V,46,
+13,0D,VBUCK3,1.221 m,0,5,V,46,
+15,0F,unused,n/a,n/a,n/a,n/a,n/a,former IBUCK0
+16,10,unused,n/a,n/a,n/a,n/a,n/a,former IBUCK1
+17,11,unused,n/a,n/a,n/a,n/a,n/a,former IBUCK2
+18,12,unused,n/a,n/a,n/a,n/a,n/a,former IBUCK3
+20,14,VLDO0,1.221 m,0,5,V,46,
+21,15,VLDO1,0.3663 m,0,1.5,V,46,
+22,16,VLDO2,1.221 m,0,5,V,46,
+23,17,VLDO3,1.221 m,0,5,V,46,
+25,19,ILDO0,0.10789 m,0,0.4,A,46,
+26,1A,ILDO1,0.10789 m,0,0.4,A,46,
+27,1B,ILDO2,0.10789 m,0,0.4,A,46,
+28,1C,ILDO3,0.10789 m,0,0.4,A,46,
+31,1F,ICHG,0.030525 m,0,0.1,A,46,
+40,28,VSINK0,1.221 m,0,5,V,46,
+41,29,VSINK1,1.221 m,0,5,V,46,
+42,2A,VSINK2,1.221 m,0,5,V,46,
+51,33,VREF_1V2,0.3663 m,0,1.5,V,46,
+65,41,TCAL,1.221 m,0,5,V,94,"25 to 200uA in steps of 25uA, source or sink"
+66,42,TDEV1,1.221 m,0,5,V,94,"25 to 200uA in steps of 25uA, source or sink"
+67,43,TDEV2,1.221 m,0,5,V,94,"25 to 200uA in steps of 25uA, source or sink"
+69,45,NTC_BATT,1.221 m,0,5,V,94,"Differential /wrt VBAT_SNSP,25 to 200uA in steps of 25uA, source  only"
+70,46,TJUNC,-89.4 m,337,-29.1,ÁC,98,
+71,47,POWERPATH_TEMP,-89.4 m,337,-29.1,ÁC,98,
+72,48,CHARGER_TEMP,-89.4 m,337,-29.1,ÁC,98,
+73,49,BUCK0_TEMP,-89.4 m,337,-29.1,ÁC,98,
+74,4A,BUCK1_TEMP,-89.4 m,337,-29.1,ÁC,98,
+75,4B,BUCK2_TEMP,-89.4 m,337,-29.1,ÁC,98,
+76,4C,BUCK3_TEMP,-89.4 m,337,-29.1,ÁC,98,
+77,4D,LDO01_TEMP,-89.4 m,337,-29.1,ÁC,98,
+78,4E,LDO23_TEMP,-89.4 m,337,-29.1,ÁC,98,
+79,4F,ISINK_TEMP,-89.4 m,337,-29.1,ÁC,98,
+84,54,CCADC,0 m,0,0,0,n/a,"CCADC-channel, GPADC not involved Internal channel"
+90,5A,AMUX_IN0,1.221 m,0,5,V,46,
+91,5B,AMUX_IN1,1.221 m,0,5,V,46,
+92,5C,AMUX_IN2,1.221 m,0,5,V,46,
+93,5D,AMUX_IN3,1.221 m,0,5,V,46,
+94,5E,AMUX_IN4,1.221 m,0,5,V,46,
+95,5F,AMUX_IN5,1.221 m,0,5,V,46,
+96,60,AMUX_IN6,1.221 m,0,5,V,46,
+97,61,AMUX_IN7,1.221 m,0,5,V,46,
+101,65,VMID - VDD_MAIN,1.221 m,0,5,V,46,Differential
+102,66,VBAT - VDD_MAIN,1.221 m,0,5,V,46,Differential
+103,67,VMID - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+104,68,VDD_MAIN - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+105,69,VBAT - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+106,6A,VBUCK2 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+107,6B,VBUCK3 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+108,6C,VLDO0 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+109,6D,VLDO2 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+110,6E,VLDO3 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+111,6F,VSINK0 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+112,70,VSINK1 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+113,71,VSINK2 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+114,72,AMUX_IN0 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+115,73,AMUX_IN1 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+116,74,AMUX_IN2 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+117,75,AMUX_IN3 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+118,76,AMUX_IN4 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+119,77,AMUX_IN5 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+120,78,AMUX_IN6 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+121,79,AMUX_IN7 - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+122,7A,NTC_BATT - VBAT_SNSP,1.221 m,0,5,V,46,Differential
+123,7B,VMID - REFDAC,1.221 m,0,5,V,46,Differential
+124,7C,VDD_MAIN - REFDAC,1.221 m,0,5,V,46,Differential
+125,7D,VBAT - REFDAC,1.221 m,0,5,V,46,Differential
+126,7E,VBUCK2 - REFDAC,1.221 m,0,5,V,46,Differential
+127,7F,VBUCK3 - REFDAC,1.221 m,0,5,V,46,Differential
+128,80,VLDO0 - REFDAC,1.221 m,0,5,V,46,Differential
+129,81,VLDO2 - REFDAC,1.221 m,0,5,V,46,Differential
+130,82,VLDO3 - REFDAC,1.221 m,0,5,V,46,Differential
+131,83,VSINK0 - REFDAC,1.221 m,0,5,V,46,Differential
+132,84,VSINK1 - REFDAC,1.221 m,0,5,V,46,Differential
+133,85,VSINK2 - REFDAC,1.221 m,0,5,V,46,Differential
+134,86,AMUX_IN0 - REFDAC,1.221 m,0,5,V,46,Differential
+135,87,AMUX_IN1 - REFDAC,1.221 m,0,5,V,46,Differential
+136,88,AMUX_IN2 - REFDAC,1.221 m,0,5,V,46,Differential
+137,89,AMUX_IN3 - REFDAC,1.221 m,0,5,V,46,Differential
+138,8A,AMUX_IN4 - REFDAC,1.221 m,0,5,V,46,Differential
+139,8B,AMUX_IN5 - REFDAC,1.221 m,0,5,V,46,Differential
+140,8C,AMUX_IN6 - REFDAC,1.221 m,0,5,V,46,Differential
+141,8D,AMUX_IN7 - REFDAC,1.221 m,0,5,V,46,Differential
+142,8E,NTC_BATT - REFDAC,1.221 m,0,5,V,46,Differential
+143,8F,VMID - AMUX_IN0,1.221 m,0,5,V,46,Differential
+144,90,VDD_MAIN - AMUX_IN0,1.221 m,0,5,V,46,Differential
+145,91,VBAT - AMUX_IN0,1.221 m,0,5,V,46,Differential
+146,92,VBUCK2 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+147,93,VBUCK3 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+148,94,VLDO0 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+149,95,VLDO2 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+150,96,VLDO3 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+151,97,VSINK0 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+152,98,VSINK1 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+153,99,VSINK2 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+154,9A,AMUX_IN1 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+155,9B,AMUX_IN2 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+156,9C,AMUX_IN3 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+157,9D,AMUX_IN4 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+158,9E,AMUX_IN5 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+159,9F,AMUX_IN6 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+160,A0,AMUX_IN7 - AMUX_IN0,1.221 m,0,5,V,46,Differential
+161,A1,NTC_BATT - AMUX_IN0,1.221 m,0,5,V,46,Differential
+162,A2,VMID - AMUX_IN1,1.221 m,0,5,V,46,Differential
+163,A3,VDD_MAIN - AMUX_IN1,1.221 m,0,5,V,46,Differential
+164,A4,VBAT - AMUX_IN1,1.221 m,0,5,V,46,Differential
+165,A5,VBUCK2 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+166,A6,VBUCK3 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+167,A7,VLDO0 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+168,A8,VLDO2 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+169,A9,VLDO3 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+170,AA,VSINK0 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+171,AB,VSINK1 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+172,AC,VSINK2 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+173,AD,AMUX_IN0 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+174,AE,AMUX_IN2 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+175,AF,AMUX_IN3 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+176,B0,AMUX_IN4 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+177,B1,AMUX_IN5 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+178,B2,AMUX_IN6 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+179,B3,AMUX_IN7 - AMUX_IN1,1.221 m,0,5,V,46,Differential
+180,B4,NTC_BATT - AMUX_IN1,1.221 m,0,5,V,46,Differential
+181,B5,VBAT_VSS,1.221 m,0,5,V,46,"Single-Ended/wrt VSS"
+182,B6,NTC_BATT_VSS,1.221 m,0,5,V,46,"Single-Ended/wrt VSS"
